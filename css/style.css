@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&subset=latin-ext');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.row::before, 
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1186px;
+  height: auto;
+}
+
+header {
+  background-image: url(../images/header_background.png);
+  height: 800px;
+  background-position: center;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+}
+
+header ul > li {
+  display: inline-block;
+}
+
+.link {
+  /* Style for "Home    Ab" */
+  width: 372px;
+  height: 13px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 44px;
+  text-decoration: none;
+}
+
+.home {
+  /* Text style for "Home" */
+  color: #ed145b;
+  letter-spacing: 0.4px;
+}
+
+.about {
+  /* Text style for "About Us" */
+  letter-spacing: 0.4px;
+}
+
+img {
+  width: 119px;
+  height: 19px;
+  color: #ffffff;
+  font-family: "Proxima Nova - Black";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 13.28px;
+  /* Text style for "///" */
+  color: #ed145b;
+  letter-spacing: 1.15px;
+  /* Text style for "Mache" */
+  letter-spacing: 1.15px;
+  margin-left: 119px;
+  margin-top: 19px;
+}
+
+
+
+
+
