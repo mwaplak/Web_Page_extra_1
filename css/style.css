@@ -17,9 +17,16 @@ body {
   clear: both;
 }
 
-.container {
-  width: 1186px;
-  height: auto;
+.container-nav {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+} 
+
+.container-main {
+  width: 100%;
+  width: 2000px;
+  margin: 0 auto;
 }
 
 header {
@@ -51,6 +58,11 @@ header ul > li {
   text-decoration: none;
 }
 
+img {
+  position: relative;
+  top: 15px;
+}
+
 .home {
   /* Text style for "Home" */
   color: #ed145b;
@@ -62,23 +74,126 @@ header ul > li {
   letter-spacing: 0.4px;
 }
 
-img {
-  width: 119px;
-  height: 19px;
-  color: #ffffff;
-  font-family: "Proxima Nova - Black";
-  font-size: 25px;
-  font-weight: 400;
-  line-height: 13.28px;
-  /* Text style for "///" */
-  color: #ed145b;
-  letter-spacing: 1.15px;
-  /* Text style for "Mache" */
-  letter-spacing: 1.15px;
-  margin-left: 119px;
-  margin-top: 19px;
+.intro {
+  position: relative;
+  top: 279px;
 }
 
+.container-intro {
+  max-width: 951px;
+  margin: auto;
+}
+
+.intro h1 {
+  text-align: center;
+  /* Style for "Mache FREE" */
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 24px;
+  text-transform: uppercase;
+  /* Text style for "M, ache" */
+  font-family: "Lato - Black";
+  font-weight: 400;
+  letter-spacing: 1.15px;
+  /* Text style for "FREE psd T" */
+  font-family: "Lato Light";
+  font-weight: 300;
+  letter-spacing: 1.15px;
+}
+
+.intro p {
+  width: 200px;
+  margin: 0 auto;
+  height: 2px;
+  background-color: #ed145b;
+}
+
+.intro h3 {
+  text-align: center;
+  /* Style for "Elegant an" */
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 38px;
+  /* Text style for "Elegant an" */
+  letter-spacing: 0.55px;
+}
+
+.show-more {
+  margin-left: 40%;
+  margin-right: 40%;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ed145b;
+  /* Style for "SHOW MORE" */
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 38px;
+  text-transform: uppercase;
+  /* Text style for "S, HOW MOR" */
+  letter-spacing: 0.38px;
+  position: relative;
+  top: 50px;
+}
+
+
+
+
+/*Desktop grid*/
+
+.col-1 { 
+  width: 8.33%; 
+}
+
+.col-2 { 
+  width: 16.66%; 
+}
+
+.col-3 { 
+  width: 25%; 
+}
+
+.col-4 { 
+  width: 33.33%; 
+}
+
+.col-5 { 
+  width: 41.66%; 
+}
+
+.col-6 { 
+  width: 50%; 
+}
+
+.col-7 { 
+  width: 58.33%;
+}
+
+.col-8 { 
+  width: 66.66%;
+}
+
+.col-9 { 
+  width: 75%;
+}
+
+.col-10 { 
+  width: 83.33%;
+}
+
+.col-11 { 
+  width: 91.66%;
+}
+
+.col-12 { 
+  width: 100%; 
+}
 
 
 
