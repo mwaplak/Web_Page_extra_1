@@ -1,13 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i&subset=latin-ext');
 
 * {
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  border: 0;
-  padding: 0;
 }
 
 .row::before, 
@@ -18,14 +12,14 @@ body {
 }
 
 .container-nav {
-  width: 100%;
+  width: 1198px;
   max-width: 2000px;
   margin: 0 auto;
 } 
 
 .container-main {
   width: 100%;
-  width: 2000px;
+  max-width: 2000px;
   margin: 0 auto;
 }
 
@@ -74,14 +68,14 @@ img {
   letter-spacing: 0.4px;
 }
 
-.intro {
-  position: relative;
-  top: 279px;
-}
-
 .container-intro {
   max-width: 951px;
   margin: auto;
+}
+
+.intro {
+  position: relative;
+  top: 279px;
 }
 
 .intro h1 {
@@ -92,15 +86,10 @@ img {
   font-size: 46px;
   font-weight: 300;
   line-height: 24px;
-  text-transform: uppercase;
-  /* Text style for "M, ache" */
-  font-family: "Lato - Black";
-  font-weight: 400;
-  letter-spacing: 1.15px;
-  /* Text style for "FREE psd T" */
-  font-family: "Lato Light";
   font-weight: 300;
   letter-spacing: 1.15px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
 }
 
 .intro p {
@@ -120,6 +109,7 @@ img {
   line-height: 38px;
   /* Text style for "Elegant an" */
   letter-spacing: 0.55px;
+  margin-top: 30px;
 }
 
 .show-more {
@@ -140,10 +130,147 @@ img {
   letter-spacing: 0.38px;
   position: relative;
   top: 50px;
+  cursor: pointer;
 }
 
+.rectangle {
+  background-image: url(../images/pink-new.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 40px;
+  background-color: #f4f4f4;
+}
 
+.video {
+  background-color: #f4f4f4;
+  height: 606px;
+  margin: 0 auto;
+}
 
+.powerful {
+  /* Style for "Powerfull" */
+  width: 376px;
+  height: 85px;
+  color: #5a5a5a;
+  font-family: lato;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 52px;
+  /* Text style for "P, owerful" */
+  letter-spacing: 0.95px;
+
+}
+
+.line {
+  /* Style for "Prostokąt" */
+  width: 200px;
+  height: 2px;
+  background-color: #ed145b;
+  margin-top: 95px;
+  margin-bottom: 30px;
+}
+
+.lorem {
+    /* Style for "Lorem ipsu" */
+  width: 466px;
+  height: 175px;
+  color: #5a5a5a;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  /* Text style for "Lorem ipsu" */
+  letter-spacing: 0.38px;
+  overflow: hidden;
+}
+
+.see {
+  /* Style for "See the Vi" */
+  height: 12px;
+  color: #ed145b;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 75px;
+  text-transform: uppercase;
+}
+
+.macbook {
+  background-image: url(../images/Macbook.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1022px;
+  height: 500px;
+  border-radius: 5% 5% 0 0;
+}
+
+.macbook-foreground {
+  background-color: #fff;
+  width: 75%;
+  margin: auto;
+  position: relative;
+  top: 55px;
+  height: 75%;
+}
+
+.lightgray {
+  background-color: #f4f4f4; 
+  height: 25px;
+  width: 100%;
+}
+
+.features h6 {
+  color: #f36091;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+.features p {
+  width: 178px;
+  height: 66px;
+  overflow: hidden;
+  margin-top: 15px;
+  font-size: 10px;
+  width: 95%;
+}
+
+.features img {
+  margin-top: 60px;
+  width: 80%;
+}
+
+.join {
+  background-color: #ed145b;
+  width: 100%;
+  height: 70px;
+  margin-top: 20px;
+  line-height: 35px;
+}
+
+.join p {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.join span {
+  font-weight: bold;
+}
+
+.join button {
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #ed145b;
+  border-radius: 25px;
+  font-size: 8px;
+  width: 100px;
+  height: 25px;
+  margin-top: 20px;
+}
 
 /*Desktop grid*/
 
@@ -194,6 +321,57 @@ img {
 .col-12 { 
   width: 100%; 
 }
+
+.col-offset-1 { 
+	margin-left: 8.33%; 
+}
+
+.col-offset-2 { 
+	margin-left: 16.66%;
+}
+
+.col-offset-3 { 
+	margin-left: 25%; 
+}
+
+.col-offset-4 {	
+	margin-left: 33.33%; 
+}
+
+.col-offset-5 {	
+	margin-left: 41.66%; 
+}
+
+.col-offset-6 {	
+	margin-left: 50%; 
+}
+
+.col-offset-7 {	
+	margin-left: 58.33%; 
+}
+
+.col-offset-8 {	
+	margin-left: 66.66%; 
+}
+
+.col-offset-9 {	
+	margin-left: 75%; 
+}
+
+.col-offset-10 { 
+	margin-left: 83.33%; 
+}
+
+.col-offset-11 { 
+	margin-left: 91.66%; 
+}
+
+[class*='col-'] {
+	min-height: 1px;
+	max-height: 550px;
+	float: left;
+}
+
 
 
 
