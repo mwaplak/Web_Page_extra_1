@@ -368,7 +368,7 @@ img {
 
 .slide {
   width: 40%;
-  height: 142px;
+  height: 150px;
   margin-left: 30%;
   margin-right: 30%;
   overflow: hidden;
@@ -396,6 +396,7 @@ img {
   position: relative;
   top: 75px;
   margin-bottom: 60px;
+  right: 20px;
 }
 
 
