@@ -343,11 +343,62 @@ img {
   margin-top: 30px;
 }
 
-.quotes {
+.slideshow {
   height: 501px;
   width: 100%;
   margin-top: 300px;
+  background-image: url(../images/header_background.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+#left, #right {
+  cursor: pointer;
+}
+
+#left {
+  left: 378px;
+  top: 234px;
+}
+
+#right {
+  right: 318px;
+  top: 234px;
+}
+
+.slide {
+  width: 40%;
+  height: 142px;
+  margin-left: 30%;
+  margin-right: 30%;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 200;
+  font-size: 25px;
+  position: relative;
+  top: 70px;
+  letter-spacing: 0.63px;
+  font-family: lato;
+  font-style: italic;
+}
+
+.quotation {
+  width: 62px;
+  height: 50px;
+  color: #ed145b;
+  font-family: "Droid Serif";
+  font-size: 158px;
+  font-weight: 700;
+  letter-spacing: 3.95px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 75px;
+  margin-bottom: 60px;
+}
+
+
 
 /*Desktop grid*/
 
