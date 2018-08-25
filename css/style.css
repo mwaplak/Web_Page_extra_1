@@ -566,6 +566,72 @@ margin: 0 auto;
   cursor: pointer;
 }
 
+.features_full {
+  height: 601px;
+  width: 100%;
+  padding-top: 80px;
+  position: relative;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.features_full h6 {
+  /* Style for "24/7 SUPPO" */
+  height: 12px;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* Text style for "24/7 SUPPO" */
+  letter-spacing: 0.38px;
+}
+
+.features_full p {
+  /* Style for "Lorem ipsu" */
+  width: 262px;
+  height: 85px;
+  color: #5a5a5a;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  /* Text style for "L, orem ip" */
+  letter-spacing: 0.38px;
+}
+
+.join_us_full .join {
+  background-color: #ed145b;
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  line-height: 200px;
+}
+
+.join_us_full .join p {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: lato;
+  font-size: 38px;
+}
+
+.join_us_full .join span {
+  font-weight: bold;
+}
+
+.join_us_full .join button {
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #ed145b;
+  border-radius: 25px;
+  font-size: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 /*Desktop grid*/
 
 .col-1 { 
