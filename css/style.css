@@ -399,7 +399,172 @@ img {
   right: 20px;
 }
 
+.prices {
+  width: 100%;
+  height: 999px;
+  background-color: #f4f4f4;
+}
 
+.check_out {
+  color: #5a5a5a;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.check_out .line {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.check_out h3 {
+  height: 29px;
+  color: #5a5a5a;
+  font-family: lato;
+  font-style: italic;
+  font-size: 38px;
+  font-weight: 200;
+  letter-spacing: 0.95px;
+}
+
+.check_out .description {
+  /* Style for "Lorem ipsu" */
+  width: 681px;
+  height: 54px;
+  color: #5a5a5a;
+  font-family: lato;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0.38px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.price_tags {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.price_one {
+  background-color: #5a5a5a;
+  width: 262px;
+  height: 150px;
+  color: #f4f4f4;
+}
+
+.price_one h3 {
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 1.25px;
+  color: #f4f4f4;
+  padding-top: 25px;
+}
+
+.price_one h3 span {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.price_one p {
+/* Style for "per month" */
+width: 72px;
+height: 15px;
+color: #f4f4f4;
+font-family: lato;
+font-size: 15px;
+font-weight: 700;
+line-height: 38px;
+/* Text style for "per month" */
+letter-spacing: 0.38px;
+padding-top: 35px;
+margin: 0 auto;
+}
+
+.price_two h3 {
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 1.25px;
+  color: #f4f4f4;
+  padding-top: 25px;
+}
+
+.price_two h3 span {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.price_two p {
+  width: 72px;
+  height: 15px;
+  color: #f4f4f4;
+  font-family: lato;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.38px;
+  padding-top: 35px;
+  margin: 0 auto;
+}
+
+.services_one, .services_two {
+  width: 262px;
+  height: 300px;
+  background-color: #fff;
+}
+
+.services_one p{
+  color: #5a5a5a;
+  padding: 10px;
+  position: relative;
+  top: 55px;
+}
+
+
+.price_two {
+  background-color: #ed145b;
+  width: 262px;
+  height: 150px;
+}
+
+.services_two p{
+  color: #5a5a5a;
+  padding: 10px;
+  position: relative;
+  top: 55px;
+}
+
+.service_tag {
+  background-color: #f4f4f4;
+  text-transform: uppercase;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  color: #5a5a5a;
+  line-height: 50px;
+  position: relative;
+  top: 64px;
+  left: 30px;
+  font-weight: bold;
+}
+
+.buy_now {
+  /* Style for "Prostokąt" */
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ed145b;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 80px;
+  cursor: pointer;
+}
 
 /*Desktop grid*/
 
